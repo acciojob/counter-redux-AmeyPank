@@ -1,6 +1,6 @@
 // reducer.js
 const initialState = {
-    counter: 0,
+    counter: null,
 };
 
 const counterReducer = (state = initialState, action) => {
