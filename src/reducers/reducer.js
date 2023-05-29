@@ -1,7 +1,5 @@
 // reducer.js
-const initialState = {
-    counter: 0,
-};
+const initialState = 0;
 
 const counterReducer = (state = initialState, action) => {
     switch (action.type) {
